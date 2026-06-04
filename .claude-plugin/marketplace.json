@@ -1,0 +1,19 @@
+{
+  "name": "stratos",
+  "owner": {
+    "name": "Stratos House AI",
+    "url": "https://www.stratosagency.ai"
+  },
+  "metadata": {
+    "description": "Free Claude Code stacks and skills from Stratos House AI.",
+    "homepage": "https://www.stratosagency.ai"
+  },
+  "plugins": [
+    {
+      "name": "stratos-carousel-creator",
+      "version": "1.0.0",
+      "source": "./plugin",
+      "description": "Render a complete, on-brand 5-card Instagram carousel from a short brief, using the Higgsfield MCP and a loaded design system. Applies a locked 5-card flow and a swappable brand design context. Re-skinnable for any brand."
+    }
+  ]
+}

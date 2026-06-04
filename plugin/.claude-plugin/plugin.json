@@ -1,0 +1,23 @@
+{
+  "name": "stratos-carousel-creator",
+  "version": "1.0.0",
+  "description": "Render a complete on-brand 5-card Instagram carousel from a short brief, using the Higgsfield MCP and a loaded design system. Locked 5-card flow, swappable brand design context, re-skinnable for any brand.",
+  "author": {
+    "name": "Arshia Navabi",
+    "email": "arshia@stratosagency.ai",
+    "url": "https://www.stratosagency.ai"
+  },
+  "homepage": "https://github.com/ArshiaEcho/stratos-carousel-creator",
+  "repository": "https://github.com/ArshiaEcho/stratos-carousel-creator",
+  "license": "MIT",
+  "keywords": [
+    "carousel",
+    "instagram",
+    "higgsfield",
+    "mcp",
+    "design-system",
+    "content",
+    "social-media",
+    "stratos"
+  ]
+}
