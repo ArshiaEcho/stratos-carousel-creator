@@ -38,7 +38,7 @@ In Claude Code:
 /stratos-carousel-creator
 ```
 
-The repo is private, so make sure your GitHub account has access. You can also clone it into your project's `.claude/skills/` directory directly.
+The repo is free and public, so the commands work for anyone with Claude Code. You can also clone it into your project's `.claude/skills/` directory directly.
 
 Then give it a brief: a date, your top 3 stories (title + short summary + source), and optionally 5 supporting titles for the list card. The skill derives today's rotation, renders all five cards in parallel through Higgsfield, runs the QA checklist, saves them to `./carousel/{date}/`, and reports the credit cost.
 

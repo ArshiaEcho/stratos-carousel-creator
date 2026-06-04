@@ -75,7 +75,7 @@ Trigger it:
 /stratos-carousel-creator
 ```
 
-> This repo is **private**. Make sure your GitHub account has access and you are signed in (`gh auth login`). You can also clone it straight into your project's `.claude/skills/` directory.
+> Free and public. The commands work for anyone with Claude Code installed. You can also clone the repo straight into your project's `.claude/skills/` directory.
 
 ## Repo layout
 
