@@ -27,19 +27,19 @@ This skill is **self-contained and re-skinnable**. The default look is the Strat
 Gather these. Ask only for what is missing; infer sensible defaults.
 
 1. **Date** (defaults to today). Used to derive the daily rotation.
-2. **Top 3 stories / points** — each a title + a one or two line summary + a source (source optional).
+2. **Top 3 stories / points**, each a title + a one or two line summary + a source (source optional).
 3. **5 supporting items** (titles only) for the final list card. Optional; if absent, make card 5 a single CTA.
-4. **Design context** — from `references/design-context.md` or the user's own.
+4. **Design context**, from `references/design-context.md` or the user's own.
 
 If the user pastes a digest, parse the top 3 and the extras from it. If they give a single topic, expand it into 3 angles yourself and confirm before rendering.
 
 ## Process
 
-### Step 1 — Load the design system
+### Step 1: Load the design system
 
 Read `references/design-context.md` (or the user's brief). Hold the palette, type, layout rules, and voice rules in context. Every prompt you build must obey them.
 
-### Step 2 — Derive today's flow rules
+### Step 2: Derive today's flow rules
 
 Read the date, get the weekday, and look up the rotation in `references/flow-system.md`:
 
@@ -53,7 +53,7 @@ Read the date, get the weekday, and look up the rotation in `references/flow-sys
 
 Weekend has no rule. If the date is Sat/Sun, ask the user to pick a composition before proceeding.
 
-### Step 3 — Build the 5 prompts
+### Step 3: Build the 5 prompts
 
 Use the templates in `references/prompt-templates.md`. The within-day card rhythm is fixed regardless of weekday; only the **cover** uses the day's sculpture position. Each prompt follows the grammar: `[format + aspect] → [scene] → [subject + action] → [style anchor] → [negation]`, and bakes in the loaded palette hex codes and type.
 
@@ -67,7 +67,7 @@ The 5 cards:
 | 4 | Headline 03 | lower-left, ~35% (mirror of card 1) | cyan, big, upper-right |
 | 5 | List + CTA | upper-right, ~20%, smallest | none, type-led |
 
-### Step 4 — Render 5 cards in parallel
+### Step 4: Render 5 cards in parallel
 
 Call `mcp__higgsfield__generate_image` five times **in a single message** (parallel), with:
 - `model`: `nano_banana_2` (default; best speed/text balance). Use a stronger text model only if the user asks.
@@ -77,7 +77,7 @@ Call `mcp__higgsfield__generate_image` five times **in a single message** (paral
 
 Then poll each with `mcp__higgsfield__job_status` until terminal, and pull final image URLs with `mcp__higgsfield__reveal_generation` (or `show_generations`). Save the five images to `./carousel/{YYYY-MM-DD}/` as `card-1-cover.png` … `card-5-list.png`.
 
-### Step 5 — QA pass
+### Step 5: QA pass
 
 Open each PNG with the Read tool and check against the locked checklist (full list in `references/flow-system.md`):
 
@@ -90,7 +90,7 @@ Open each PNG with the Read tool and check against the locked checklist (full li
 
 Re-render any failing card once, with a stricter prompt that quotes the exact text and the rule it broke. Max 1 retry per card.
 
-### Step 6 — Deliver
+### Step 6: Deliver
 
 Show the user the five cards, then a short summary:
 - Credit cost (check `mcp__higgsfield__balance` before/after; ~3 cr/card on `nano_banana_2`, ~15 cr/carousel).
@@ -120,9 +120,9 @@ If the user has a delivery target (a Telegram bot, a Slack channel, a Buffer que
 
 ## Reference files
 
-- `references/flow-system.md` — the locked 5-card flow + weekday rotation + QA checklist.
-- `references/prompt-templates.md` — the 5 card prompt templates (self-contained, copy of the production grammar).
-- `references/design-context.md` — the design system brief to load before rendering, plus how to swap it for your brand.
+- `references/flow-system.md`, the locked 5-card flow + weekday rotation + QA checklist.
+- `references/prompt-templates.md`, the 5 card prompt templates (self-contained, copy of the production grammar).
+- `references/design-context.md`, the design system brief to load before rendering, plus how to swap it for your brand.
 
 ## Make it yours
 

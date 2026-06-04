@@ -26,7 +26,7 @@
 
 A Claude Code skill that turns one short brief into a finished, on-brand **5-card Instagram carousel**, rendered through the Higgsfield MCP. The five cards read as one story, not five posters: a recurring sculpture moves through the swipe on an S-curve. It greets, watches, takes over, mirrors, then exits.
 
-It ships with the Stratos "Style B" look by default, and it is **re-skinnable** — swap the design context and the same pipeline renders your brand.
+It ships with the Stratos "Style B" look by default, and it is **re-skinnable**, swap the design context and the same pipeline renders your brand.
 
 ```
   Cover  →  Headline 01  →  Punctuation tile  →  Headline 03  →  List + CTA
@@ -37,10 +37,10 @@ It ships with the Stratos "Style B" look by default, and it is **re-skinnable** 
 
 You give it a brief (a date, your top 3 stories, and optionally 5 supporting titles). The skill then:
 
-1. **Derives today's rules** — reads the date and looks up the weekday rotation (sculpture position + warm/cool emphasis).
-2. **Renders 5 cards in parallel** — builds five prompts from the flow rules and your design context, fires them all at the Higgsfield MCP at once.
-3. **Runs a QA pass** — checks every card against the locked checklist (numerals cyan, hairlines gold, body cream, no emoji, voice clean) and re-renders any that fail.
-4. **Delivers** — saves the set to `./carousel/{date}/`, reports the credit cost, and hands it to you to approve or re-render.
+1. **Derives today's rules**, reads the date and looks up the weekday rotation (sculpture position + warm/cool emphasis).
+2. **Renders 5 cards in parallel**, builds five prompts from the flow rules and your design context, fires them all at the Higgsfield MCP at once.
+3. **Runs a QA pass**, checks every card against the locked checklist (numerals cyan, hairlines gold, body cream, no emoji, voice clean) and re-renders any that fail.
+4. **Delivers**, saves the set to `./carousel/{date}/`, reports the credit cost, and hands it to you to approve or re-render.
 
 About **15 credits** per carousel on the default model. Higgsfield's free tier (150 credits/month) covers roughly ten.
 
@@ -103,7 +103,7 @@ stratos-carousel-creator/
 
 The skill renders Stratos carousels out of the box. To build your own brand's engine, edit `references/design-context.md` (palette, type, voice) and, if you want, the hero element and rotation in `references/flow-system.md`. The pipeline does not change. The look does.
 
-Not a designer? Use **Claude Design** — Claude's own design ability — to generate your palette, type, layout, and voice rules first, then distill them into the one-page design context. That is exactly how the Stratos system was made.
+Not a designer? Use **Claude Design**, Claude's own design ability, to generate your palette, type, layout, and voice rules first, then distill them into the one-page design context. That is exactly how the Stratos system was made.
 
 ## Why a design system matters
 

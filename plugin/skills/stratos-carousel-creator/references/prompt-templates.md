@@ -32,7 +32,7 @@ glow. Cinematic depth-of-field. Highly legible. No emoji, no neon outline, no AI
 
 ---
 
-## Card 1 — Cover
+## Card 1: Cover
 
 ```
 {base, position = today's rotation, scale = 100}
@@ -43,7 +43,7 @@ Bottom-center: small monospace lowercase '@yourbrand' in cream.
 Style: cinematic premium tech magazine.
 ```
 
-## Card 2 — Headline 01
+## Card 2: Headline 01
 
 ```
 {base, position = upper-right, scale = 35}
@@ -54,7 +54,7 @@ cream Cabinet Grotesk regular: {story 1 summary}. Source attribution in JetBrain
 cream reading 'SOURCE  /  {story 1 source}', left-aligned.
 ```
 
-## Card 3 — Punctuation tile (the one break)
+## Card 3: Punctuation tile (the one break)
 
 ```
 {base, position = center, scale = 60}
@@ -66,7 +66,7 @@ regular: {story 2 summary}. Bottom-left: small monospace 'SOURCE  /  {story 2 so
 in JetBrains Mono cream.
 ```
 
-## Card 4 — Headline 03 (mirror of card 2)
+## Card 4: Headline 03 (mirror of card 2)
 
 ```
 {base, position = lower-left, scale = 35}
@@ -77,7 +77,7 @@ cream Cabinet Grotesk regular: {story 3 summary}. Source attribution in JetBrain
 cream reading 'SOURCE  /  {story 3 source}', right-aligned.
 ```
 
-## Card 5 — List + CTA
+## Card 5: List + CTA
 
 ```
 {base, position = upper-right, scale = 20}

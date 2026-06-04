@@ -1,4 +1,4 @@
-# 02 — Give Claude a design system
+# 02: Give Claude a design system
 
 This is the difference between five posts that look like five tools made them, and a feed that looks like one studio. Higgsfield is only as on-brand as the context you hand it.
 
@@ -10,7 +10,7 @@ Without it, every prompt re-explains your brand from scratch, and the results dr
 
 ## Let Claude build it (Claude Design)
 
-You do not need to be a designer. Use **Claude Design** — Claude's own design ability — to generate the system:
+You do not need to be a designer. Use **Claude Design**, Claude's own design ability, to generate the system:
 
 1. Ask Claude Design for a palette, a type pairing, layout grammar, and voice rules for your brand.
 2. Iterate until it feels right.
@@ -42,10 +42,10 @@ VOICE (never violate)
 
 Replace the values, keep the shape:
 
-- **Palette** — one dark base, one light text, one primary accent, one secondary, one support. Five max.
-- **Type** — one display face, one mono/label face. Name both in every prompt.
-- **Hero element** — Stratos uses a chrome-liquid sculpture as a recurring character. Yours could be a product, a material, a mascot, or a shape. It moves through the carousel the same way.
-- **Voice** — the words and patterns you never want. The negation block is what kills generic AI output.
+- **Palette**, one dark base, one light text, one primary accent, one secondary, one support. Five max.
+- **Type**, one display face, one mono/label face. Name both in every prompt.
+- **Hero element**, Stratos uses a chrome-liquid sculpture as a recurring character. Yours could be a product, a material, a mascot, or a shape. It moves through the carousel the same way.
+- **Voice**, the words and patterns you never want. The negation block is what kills generic AI output.
 
 The flow and prompt templates do not change. Only the look does.
 

@@ -1,4 +1,4 @@
-# 03 — Prompt Higgsfield well
+# 03: Prompt Higgsfield well
 
 Two things decide render quality: which model you use, and how you structure the prompt. You mostly talk to Claude in plain English, but the structure underneath is what makes a card clean.
 
@@ -22,7 +22,7 @@ The negation block (`no emoji, no neon outline, no AI gloss`) is the single bigg
 | Video with audio | Seedance / Veo | Native lip-sync, SFX, music |
 | Cheap, high-volume video | Kling Turbo | The volume play for batch testing |
 
-For carousels, the default is **`nano_banana_2`** — fast, cheap, good with the on-card text. Escalate a single card to a stronger text model only if legibility fails twice.
+For carousels, the default is **`nano_banana_2`**, fast, cheap, good with the on-card text. Escalate a single card to a stronger text model only if legibility fails twice.
 
 ## The one cost rule
 

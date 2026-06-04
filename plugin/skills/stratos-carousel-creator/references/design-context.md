@@ -6,12 +6,12 @@ This is the **Stratos default**. To re-skin: replace the values, keep the shape,
 
 ## Where it comes from
 
-A design system does not have to be hand-made. Use **Claude Design** — Claude's own design ability — to generate one: ask for a palette, a type pairing, layout grammar, and voice rules for your brand, and iterate until it feels right. The Stratos system below started as a Claude Design handoff. Then distill it to one screen (this file) and load it at the top of any rendering session, or keep it in `CLAUDE.md` so it loads automatically.
+A design system does not have to be hand-made. Use **Claude Design**, Claude's own design ability, to generate one: ask for a palette, a type pairing, layout grammar, and voice rules for your brand, and iterate until it feels right. The Stratos system below started as a Claude Design handoff. Then distill it to one screen (this file) and load it at the top of any rendering session, or keep it in `CLAUDE.md` so it loads automatically.
 
 ## The brief (copy, then adapt)
 
 ```
-# DESIGN CONTEXT — load before any render
+# DESIGN CONTEXT: load before any render
 
 PALETTE
   ink     #0A1E22   (background, always)
@@ -38,10 +38,10 @@ VOICE (never violate)
 
 ## How to swap it for your brand
 
-1. **Palette** — pick 3 to 5 colors: one dark base, one light text, one primary accent, one secondary, one support. Keep it to five. Put the hex codes in the prompt so the model matches them.
-2. **Type** — one display face, one mono/label face. Name them in every prompt.
-3. **Hero element** — Stratos uses a chrome-liquid sculpture. Yours could be a product, a mascot, a material, or a recurring shape. It should move through the carousel the same way (cover → watch → take over → mirror → exit).
-4. **Voice rules** — list the words and patterns you never want. The negation block is what kills generic AI output.
+1. **Palette**, pick 3 to 5 colors: one dark base, one light text, one primary accent, one secondary, one support. Keep it to five. Put the hex codes in the prompt so the model matches them.
+2. **Type**, one display face, one mono/label face. Name them in every prompt.
+3. **Hero element**, Stratos uses a chrome-liquid sculpture. Yours could be a product, a mascot, a material, or a recurring shape. It should move through the carousel the same way (cover → watch → take over → mirror → exit).
+4. **Voice rules**, list the words and patterns you never want. The negation block is what kills generic AI output.
 
 Once swapped, the flow system and prompt templates work unchanged. Same pipeline, your brand.
 

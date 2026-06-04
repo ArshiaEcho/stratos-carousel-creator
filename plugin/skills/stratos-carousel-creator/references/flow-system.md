@@ -86,9 +86,9 @@ If any check fails, re-render that card once with a stricter prompt or skip it.
 
 ## Special tiles (optional, use sparingly)
 
-- **Weekly Tools List** — 5 cards, warm/amber dominant, reads as a weekly edit rather than daily news.
-- **Vendor Comparison** — 3 or 5 cards comparing two tools; split lighting (cyan vs gold) suggests the comparison.
-- **Workflow Demo** — sculpture more abstract, terminal-flow integrated, type-led, focused on a build.
+- **Weekly Tools List**, 5 cards, warm/amber dominant, reads as a weekly edit rather than daily news.
+- **Vendor Comparison**, 3 or 5 cards comparing two tools; split lighting (cyan vs gold) suggests the comparison.
+- **Workflow Demo**, sculpture more abstract, terminal-flow integrated, type-led, focused on a build.
 
 ## Evolving the system
 

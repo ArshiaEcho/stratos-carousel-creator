@@ -1,4 +1,4 @@
-# 04 — The carousel flow
+# 04: The carousel flow
 
 What makes five cards read as one story instead of five posters. A recurring sculpture (your hero element) moves through the swipe on an S-curve: it greets, watches, takes over, mirrors, then exits.
 

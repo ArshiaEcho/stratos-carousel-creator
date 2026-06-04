@@ -1,4 +1,4 @@
-# 01 — Connect the Higgsfield MCP
+# 01: Connect the Higgsfield MCP
 
 The skill renders through Higgsfield. This is how you connect and authenticate it in Claude Code. Verified current as of June 2026.
 
@@ -55,7 +55,7 @@ claude mcp list
 
 ## Troubleshooting
 
-- **"Needs authentication"** — the sign-in has not happened or the token expired. Run `/mcp`, pick Higgsfield, choose Authenticate (or Clear authentication, then re-auth).
-- **Remove it** — `claude mcp remove higgsfield`.
-- **Context cost** — every MCP loads its tool descriptions into context. Higgsfield is light. If you stack many MCPs, remove the ones you are not using.
-- **MCP vs CLI** — for very heavy automation, Higgsfield also ships a CLI that is leaner on tokens. The MCP is all you need for this skill.
+- **"Needs authentication"**, the sign-in has not happened or the token expired. Run `/mcp`, pick Higgsfield, choose Authenticate (or Clear authentication, then re-auth).
+- **Remove it**, `claude mcp remove higgsfield`.
+- **Context cost**, every MCP loads its tool descriptions into context. Higgsfield is light. If you stack many MCPs, remove the ones you are not using.
+- **MCP vs CLI**, for very heavy automation, Higgsfield also ships a CLI that is leaner on tokens. The MCP is all you need for this skill.
