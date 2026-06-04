@@ -42,10 +42,10 @@ VOICE (never violate)
 
 Replace the values, keep the shape:
 
-- **Palette**, one dark base, one light text, one primary accent, one secondary, one support. Five max.
-- **Type**, one display face, one mono/label face. Name both in every prompt.
-- **Hero element**, Stratos uses a chrome-liquid sculpture as a recurring character. Yours could be a product, a material, a mascot, or a shape. It moves through the carousel the same way.
-- **Voice**, the words and patterns you never want. The negation block is what kills generic AI output.
+- **Palette.** One dark base, one light text, one primary accent, one secondary, one support. Five max.
+- **Type.** One display face, one mono/label face. Name both in every prompt.
+- **Hero element.** Stratos uses a chrome-liquid sculpture as a recurring character. Yours could be a product, a material, a mascot, or a shape. It moves through the carousel the same way.
+- **Voice.** The words and patterns you never want. The negation block is what kills generic AI output.
 
 The flow and prompt templates do not change. Only the look does.
 

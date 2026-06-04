@@ -55,7 +55,7 @@ claude mcp list
 
 ## Troubleshooting
 
-- **"Needs authentication"**, the sign-in has not happened or the token expired. Run `/mcp`, pick Higgsfield, choose Authenticate (or Clear authentication, then re-auth).
-- **Remove it**, `claude mcp remove higgsfield`.
-- **Context cost**, every MCP loads its tool descriptions into context. Higgsfield is light. If you stack many MCPs, remove the ones you are not using.
-- **MCP vs CLI**, for very heavy automation, Higgsfield also ships a CLI that is leaner on tokens. The MCP is all you need for this skill.
+- **"Needs authentication".** The sign-in has not happened or the token expired. Run `/mcp`, pick Higgsfield, choose Authenticate (or Clear authentication, then re-auth).
+- **Remove it.** Run `claude mcp remove higgsfield`.
+- **Context cost.** Every MCP loads its tool descriptions into context. Higgsfield is light. If you stack many MCPs, remove the ones you are not using.
+- **MCP vs CLI.** For very heavy automation, Higgsfield also ships a CLI that is leaner on tokens. The MCP is all you need for this skill.

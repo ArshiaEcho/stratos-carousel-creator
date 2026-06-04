@@ -22,13 +22,13 @@ The negation block (`no emoji, no neon outline, no AI gloss`) is the single bigg
 | Video with audio | Seedance / Veo | Native lip-sync, SFX, music |
 | Cheap, high-volume video | Kling Turbo | The volume play for batch testing |
 
-For carousels, the default is **`nano_banana_2`**, fast, cheap, good with the on-card text. Escalate a single card to a stronger text model only if legibility fails twice.
+For carousels, the default is **`nano_banana_2`**: fast, cheap, and good with the on-card text. Escalate a single card to a stronger text model only if legibility fails twice.
 
 ## The one cost rule
 
 Resolution is the price lever, not the model. The same render at high resolution can cost **10 to 15 times** more than standard. Default everything to standard resolution while you iterate. Only upscale the one card that actually ships.
 
-A full 5-card carousel on `nano_banana_2` is about **15 credits**. A single-card re-render is about **3 credits**. The free tier (150 credits/month) covers roughly ten carousels.
+A full 5-card carousel runs about **10 to 15 credits** (2 to 3 a card, depending on model and resolution). A single-card re-render is about **2 to 3 credits**. The free tier (150 credits/month) covers ten or more carousels.
 
 ## A worked example (Stratos cover)
 
@@ -42,7 +42,7 @@ cyan. Bottom-center: small mono '@yourbrand' in cream. Highly legible.
 No emoji, no neon outline, no AI gloss.
 ```
 
-It runs all five grammar steps in order and ends with a negation. Quote the exact copy (`reading 'â€¦'`) so the model renders your words, not a paraphrase.
+It runs all five grammar steps in order and ends with a negation. Quote the exact copy (`reading '...'`) so the model renders your words, not a paraphrase.
 
 ## Sensitive-content trip-wires
 

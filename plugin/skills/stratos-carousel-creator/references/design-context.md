@@ -38,10 +38,10 @@ VOICE (never violate)
 
 ## How to swap it for your brand
 
-1. **Palette**, pick 3 to 5 colors: one dark base, one light text, one primary accent, one secondary, one support. Keep it to five. Put the hex codes in the prompt so the model matches them.
-2. **Type**, one display face, one mono/label face. Name them in every prompt.
-3. **Hero element**, Stratos uses a chrome-liquid sculpture. Yours could be a product, a mascot, a material, or a recurring shape. It should move through the carousel the same way (cover → watch → take over → mirror → exit).
-4. **Voice rules**, list the words and patterns you never want. The negation block is what kills generic AI output.
+1. **Palette.** Pick 3 to 5 colors: one dark base, one light text, one primary accent, one secondary, one support. Keep it to five. Put the hex codes in the prompt so the model matches them.
+2. **Type.** One display face, one mono/label face. Name them in every prompt.
+3. **Hero element.** Stratos uses a chrome-liquid sculpture. Yours could be a product, a mascot, a material, or a recurring shape. It should move through the carousel the same way (cover → watch → take over → mirror → exit).
+4. **Voice rules.** List the words and patterns you never want. The negation block is what kills generic AI output.
 
 Once swapped, the flow system and prompt templates work unchanged. Same pipeline, your brand.
 

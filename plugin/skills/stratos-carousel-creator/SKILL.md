@@ -27,9 +27,9 @@ This skill is **self-contained and re-skinnable**. The default look is the Strat
 Gather these. Ask only for what is missing; infer sensible defaults.
 
 1. **Date** (defaults to today). Used to derive the daily rotation.
-2. **Top 3 stories / points**, each a title + a one or two line summary + a source (source optional).
+2. **Top 3 stories / points**: each a title + a one or two line summary + a source (source optional).
 3. **5 supporting items** (titles only) for the final list card. Optional; if absent, make card 5 a single CTA.
-4. **Design context**, from `references/design-context.md` or the user's own.
+4. **Design context**: from `references/design-context.md` or the user's own.
 
 If the user pastes a digest, parse the top 3 and the extras from it. If they give a single topic, expand it into 3 angles yourself and confirm before rendering.
 
@@ -93,7 +93,7 @@ Re-render any failing card once, with a stricter prompt that quotes the exact te
 ### Step 6: Deliver
 
 Show the user the five cards, then a short summary:
-- Credit cost (check `mcp__higgsfield__balance` before/after; ~3 cr/card on `nano_banana_2`, ~15 cr/carousel).
+- Credit cost (check `mcp__higgsfield__balance` before/after; about 2 to 3 credits a card, roughly 10 to 15 credits per carousel, depending on model and resolution).
 - Today's flow rules applied.
 - The output folder path.
 - Ask: ✅ approve, 🔁 re-render a specific card, or 🚫 discard.
@@ -113,8 +113,8 @@ If the user has a delivery target (a Telegram bot, a Slack channel, a Buffer que
 
 ## Cost guardrails
 
-- Full carousel on `nano_banana_2`: ~15 credits.
-- Single-card re-render: ~3 credits.
+- Full carousel: about 10 to 15 credits (roughly 2 to 3 credits a card).
+- Single-card re-render: about 2 to 3 credits.
 - Default to standard resolution; only upscale a card that actually ships.
 - Suggest a daily ceiling (Stratos uses 50 cr/day) and stop if hit.
 
